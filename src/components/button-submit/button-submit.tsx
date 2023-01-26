@@ -9,7 +9,7 @@ export interface ButtonSubmitProps {
 export const ButtonSubmit = ({ className, children }: ButtonSubmitProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <button>{children}</button>
+            <button className={styles.Button}>{children}</button>
         </div>
     );
 };
