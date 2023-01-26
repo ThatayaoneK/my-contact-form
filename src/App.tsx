@@ -8,7 +8,7 @@ function App() {
     return (
         <div className={styles.App}>
             <h1>Contact Us</h1>
-            <form>
+            <form className={styles.form}>
                 <FormRow>
                     <Label htmlFor={'name'}>
                         Name
