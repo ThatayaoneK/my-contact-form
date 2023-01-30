@@ -43,11 +43,15 @@
   justify-items: center;
   padding: 3em 4em;
   box-shadow: 0 0 6px #e6e6e6;
-  width: 53%;
+  width: 49%;
   border-radius: 0.8em;
   justify-content: space-between;
   align-content: space-between;
   align-self: center;
+  overflow: auto;
+  position: relative;
+  top: auto;
+  left: 10%;
 }
 .Paragraph_descrip {
   width: 80%;
