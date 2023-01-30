@@ -8,6 +8,11 @@ function App() {
     return (
         <div className={styles.App}>
             <h1>Contact Us</h1>
+            <p className={styles.Paragraph_descrip}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus nisi, mollis
+                vitae lectus vel, egestas accumsan sapien.
+                <p className={styles.note}>All fields are required</p>
+            </p>
             <form className={styles.form}>
                 <FormRow>
                     <Label htmlFor={'name'}>
