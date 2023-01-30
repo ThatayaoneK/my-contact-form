@@ -43,7 +43,7 @@
   justify-items: center;
   padding: 3em 4em;
   box-shadow: 0 0 6px #e6e6e6;
-  width: 49%;
+  width: auto;
   border-radius: 0.8em;
   justify-content: space-between;
   align-content: space-between;
@@ -51,7 +51,7 @@
   overflow: auto;
   position: relative;
   top: auto;
-  left: 50%;
+  left: 15%;
   flex-wrap: nowrap;
 }
 .Paragraph_descrip {
