@@ -41,18 +41,17 @@
   flex-direction: column;
   padding: 3em 4em;
   box-shadow: 0 0 6px #e6e6e6;
-  width: auto;
+  width: 100%;
   border-radius: 0.8em;
   justify-content: space-between;
   align-content: space-between;
-  align-self: center;
   overflow: auto;
   position: relative;
   top: auto;
   left: 15%;
   flex-wrap: nowrap;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: auto;
+  max-width: none;
 }
 .Paragraph_descrip {
   width: 80%;
